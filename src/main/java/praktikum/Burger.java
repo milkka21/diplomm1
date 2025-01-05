@@ -10,8 +10,8 @@ import java.util.List;
  * Можно распечать чек с информацией о бургере.
  */
 public class Burger {
-
     public Bun bun;
+    // Можно чуть улучшить и в инициализатор передавать пустой массив (дефолтное значение)
     public List<Ingredient> ingredients = new ArrayList<>();
 
     public void setBuns(Bun bun) {
@@ -53,5 +53,4 @@ public class Burger {
 
         return receipt.toString();
     }
-
 }
